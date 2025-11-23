@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cainglet Medical Hospital - Access</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="../../index.html">RH Panabo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="hospitalsDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Hospitals
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="hospitalsDropdown">
+                            <li><a class="dropdown-item" href="../rivera/rivera_profile.html">Rivera Medical Center</a>
+                            </li>
+                            <li><a class="dropdown-item" href="../polymedic/polymedic_profile.html">Panabo Polymedic
+                                    Hospital</a></li>
+                            <li><a class="dropdown-item" href="../goodshepherd/goodshepherd_profile.html">Good Shepherd
+                                    Hospital</a></li>
+                            <li><a class="dropdown-item active" href="cainglet_profile.html">Cainglet Medical
+                                    Hospital</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Resources
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                            <li><a class="dropdown-item" href="../rivera/rivera_patientresources.html">Rivera
+                                    Resources</a></li>
+                            <li><a class="dropdown-item" href="../polymedic/polymedic_preparedness.html">Polymedic
+                                    Preparedness</a></li>
+                            <li><a class="dropdown-item" href="../goodshepherd/goodshepherd_patientstories.html">Good
+                                    Shepherd Stories</a></li>
+                            <li><a class="dropdown-item active" href="cainglet_access.html">Cainglet Access</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../index.html#contact">Contact / Emergency</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <div class="bg-light py-2">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="cainglet_profile.html">Cainglet Medical Hospital</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Access & Booking</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container section-padding">
+        <h1 class="mb-4">Access & Appointment Booking</h1>
+
+        <div class="row">
+            <div class="col-lg-7">
+                <section class="mb-5">
+                    <h3>Book an Appointment</h3>
+                    <p>Fill out the form below to request a schedule. We will confirm via SMS/Call.</p>
+                    <form class="card p-4 shadow-sm border-0">
+                        <div class="mb-3">
+                            <label for="fullName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="fullName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="contactNum" class="form-label">Contact Number</label>
+                            <input type="tel" class="form-control" id="contactNum" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="serviceType" class="form-label">Service Required</label>
+                            <select class="form-select" id="serviceType">
+                                <option selected>Choose...</option>
+                                <option value="1">Prenatal Checkup</option>
+                                <option value="2">Family Planning Consult</option>
+                                <option value="3">STI Screening</option>
+                                <option value="4">General Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="preferredDate" class="form-label">Preferred Date</label>
+                            <input type="date" class="form-control" id="preferredDate">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Request Appointment</button>
+                    </form>
+                </section>
+            </div>
+
+            <div class="col-lg-5">
+                <section class="mb-5">
+                    <h3>How to Get Here</h3>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">By Jeepney</h5>
+                            <p class="card-text">Take the "Panabo-Davao" route and ask to be dropped off at Cainglet
+                                Medical, near the City Market.</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">By Tricycle</h5>
+                            <p class="card-text">Any tricycle in the city center can take you directly to our entrance.
+                                Fare is approx. ₱15-20.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>Emergency Contacts</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            ER Hotline
+                            <span class="badge bg-danger rounded-pill">(084) 628-9999</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            Ambulance
+                            <span class="badge bg-danger rounded-pill">0917-123-4567</span>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Reproductive Health Panabo</h5>
+                    <p class="small">Dedicated to providing accurate and accessible health information to our community.
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="small mb-1">Date: November 2025</p>
+                    <p class="small">&copy; 2025. All media are original unless otherwise stated.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../js/main.js"></script>
+</body>
+
+</html>
